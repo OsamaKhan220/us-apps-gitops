@@ -1,0 +1,8 @@
+apiVersion: v2
+name: sample-app
+description: A Helm chart for Kubernetes
+dependencies:
+- name: sample-app-helm
+  version: v268
+  repository: oci://udidemo.azurecr.io
+version: v268

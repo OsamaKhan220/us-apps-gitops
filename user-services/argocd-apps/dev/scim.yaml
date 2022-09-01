@@ -1,0 +1,20 @@
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: scim
+  namespace: argocd
+spec:
+  destination:
+    namespace: dev-scim
+    server: 'https://kubernetes.default.svc'
+  project: default
+  source:
+    path: user-services/scim/dev
+    repoURL: https://github.com/OsamaKhan220/us-apps-gitops
+    targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+

@@ -1,0 +1,7 @@
+
+sample-app-helm:
+  application: 
+    deployment:   
+      image:
+        repository: udidemo.azurecr.io/sample-app-docker
+        tag: v268
