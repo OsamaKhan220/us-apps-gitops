@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: scim
+  name: dev-scim
   namespace: argocd
 spec:
   destination:
