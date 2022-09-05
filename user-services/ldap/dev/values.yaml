@@ -1,7 +1,6 @@
-
 ldap-helm:
-  application: 
-    deployment:   
+  application:
+    deployment:
       image:
         repository: osamakhan220/ldap-docker
-        tag: v1
+        tag: ""

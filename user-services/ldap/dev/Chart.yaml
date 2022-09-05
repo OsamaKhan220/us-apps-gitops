@@ -2,7 +2,7 @@ apiVersion: v2
 name: ldap
 description: A Helm chart for Kubernetes
 dependencies:
-- name: ldap-helm
-  version: v1
-  repository: https://osamakhan220.github.io/charts/
-version: v1
+  - name: ldap-helm
+    version: ""
+    repository: https://osamakhan220.github.io/charts/
+version: ""
