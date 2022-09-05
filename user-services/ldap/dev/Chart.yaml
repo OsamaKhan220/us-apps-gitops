@@ -3,6 +3,6 @@ name: ldap
 description: A Helm chart for Kubernetes
 dependencies:
   - name: ldap-helm
-    version: "v0.0.1"
+    version: "v0.0.3"
     repository: https://osamakhan220.github.io/charts/
-version: "v0.0.1"
+version: "v0.0.3"
