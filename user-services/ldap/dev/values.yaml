@@ -3,4 +3,4 @@ ldap-helm:
     deployment:
       image:
         repository: osamakhan220/ldap-docker
-        tag: ""
+        tag: "v"
