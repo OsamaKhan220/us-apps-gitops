@@ -1,7 +1,11 @@
-
 sample-app-helm:
-  application: 
-    deployment:   
+  application:
+    deployment:
       image:
         repository: udidemo.azurecr.io/sample-app-docker
         tag: v268
+ldap-helm:
+  application:
+    deployment:
+      image:
+        tag: ""
