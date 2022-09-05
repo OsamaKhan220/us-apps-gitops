@@ -1,7 +1,7 @@
 
-sample-app-helm:
+ldap-helm:
   application: 
     deployment:   
       image:
-        repository: udidemo.azurecr.io/sample-app-docker
-        tag: v268
+        repository: osamakhan220/ldap-docker
+        tag: v1

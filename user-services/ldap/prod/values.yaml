@@ -1,7 +1,7 @@
 
-stakater-nordmart-review:
+ldap-helm:
   application: 
     deployment:   
       image:
-        repository: nexus-docker-stakater-nexus.apps.binero-test.8sdzwd1l.kubeapp.cloud/stakater-nordmart-review
-        tag: 0.0.798
+        repository: osamakhan220/ldap-docker
+        tag: v1

@@ -1,8 +1,8 @@
 apiVersion: v2
-name: sample-app
+name: ldap
 description: A Helm chart for Kubernetes
 dependencies:
-- name: sample-app-helm
-  version: v268
-  repository: oci://udidemo.azurecr.io
-version: v268
+- name: ldap-helm
+  version: v1
+  repository: https://osamakhan220.github.io/charts/
+version: v1
